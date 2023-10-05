@@ -109,7 +109,8 @@
         }
        
         .box3 {
-          height: 200px !important;
+          height: fit-content !important;
+          
         }
         .box2,
         .box3 {
@@ -121,6 +122,7 @@
         .style-sec-left {
           height: 100px !important;
           padding-top: 0px !important;
+          height: fit-content !important;
         }
 
         .style-sec-right {
@@ -131,7 +133,7 @@
         }
         .style-sec-left p {
           text-align: center !important;
-        
+         font-size: 45px !important;
         }
         .style-sec-right ul li 
         {
@@ -140,6 +142,9 @@
         .right-about-sec , .left-about-sec
         {
           height: fit-content !important;
+        }
+        .left-about-sec h1 {
+             text-align: center;
         }
         .right-about-sec
         {
@@ -158,6 +163,11 @@
        .slider-box p {
         font-size:  17px !important;
        }
+       .sales-sec-p{
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 50px !important;
+      }
       }
         /* for small screen code ends here  */
 
@@ -255,6 +265,7 @@
       .card1:hover :nth-child(n) {
         color: white !important;
       }
+      
 .footer-sec
 {
  display: flex;
@@ -551,6 +562,7 @@
       </div>
     </section>
 
+    <!-- big image code starts fromm here  -->
     <section>
       <div class="container-fluid big-img-sec">
         <div class="row">
@@ -589,7 +601,9 @@
         </div>
       </div>
     </section>
+<!-- big image code ends here  -->
 
+    <!-- unique style list code starts from here  -->
     <section>
       <div class="container-fluid">
         <div class="row style-sec" style="color: #3d626c">
@@ -648,7 +662,9 @@
         </div>
       </div>
     </section>
+<!-- unique style list code ends here  -->
 
+<!-- dropdown code starts here  -->
     <section>
       <div class="container-fluid"
         style="padding-top: 50px; padding-bottom: 50px;">
@@ -767,6 +783,9 @@
         </div>
       </div>
     </section>
+<!-- dropdown code ends here -->
+
+    <!-- image only starts from here  -->
     <section>
       <div class="img-only" style="height: 500px ; ">
         <img
@@ -775,27 +794,29 @@
           width="100%" />
       </div>
     </section>
+<!--  image only code ends here  -->
 
+<!-- sale count down sec starts from here  -->
     <section>
       <div class="container-fluid">
         <div class="sales-sec pt-5 pb-5">
-          <p class="display-3  text-center"> Sale Countdown!</p>
-          <div class="row d-flex justify-content-around p-5">
-            <div class="col-2 " style="height: 100px; text-align: center;">
+          <p class="sales-sec-p display-3    text-center" > Sale Countdown!</p>
+          <div class="row d-flex justify-content-center ">
+            <div class=" col-lg-2 col-md-2 col-2 " style="height: fit-content; text-align: center;">
               <h1>00</h1>
               <h6>Days</h6>
             </div>
-            <div class="col-2 " style="height: 100px; text-align: center;">
+            <div class="col-lg-2 col-md-2 col-2  " style=" height: fit-content; text-align: center;">
               <h1>00</h1>
               <h6>Hours</h6>
             </div>
-            <div class="col-2 " style="height: 100px; text-align: center;">
+            <div class="col-lg-2 col-md-2 col-2 " style="height: fit-contents; text-align: center;">
               <h1>00</h1>
-              <h6>Minutes</h6>
+              <h6>Mints</h6>
             </div>
-            <div class="col-2 " style="height: 100px; text-align: center;">
+            <div class="col-2 " style="height: fit-content; text-align: center;">
               <h1>00</h1>
-              <h6>Seconds</h6>
+              <h6>Secs</h6>
             </div>
 
           </div>
@@ -842,7 +863,9 @@
     </div>
 
   </section>
+  <!--  sale cound down sec end here  -->
 
+<!-- our client sec starts from here  -->
   <section>
     <div class="container-fluid " style=" width: 100%;
       background-color: #FFF3F3;
@@ -917,7 +940,9 @@
         </div>
       </div>
     </section>
+    <!--  our client sec ends here  -->
 
+<!-- slider sec starts from here  -->
     <section>
       <div
         class="container-fluid  d-flex align-items-center justify-content-center pt-5
@@ -974,7 +999,9 @@
 
       </div>
     </section>
+<!-- slider sec ends here  -->
 
+    <!-- about store sec starts from here  -->
     <section>
       <div class="about-sec container-fluid  pt-5 pb-5"
         style="background-color: #F6F6F6; ">
@@ -1000,7 +1027,7 @@
             class="right-about-sec col-lg-4 col-md-12 col-12  d-flex flex-column align-items-md-start  align-items-center"
             style=" 
   height: 400px; padding-top: 90px; font-size: 17px;word-spacing: 3px;">
-            <span class="mb-3" style="color: #9a9e9f;"><strong
+            <span class="mb-3 text-center style="color: #9a9e9f;"><strong
                 style="color: #3d626c;">MORE INFO :</strong>
               support@mobirise.com </span>
             <span class="mb-3" style="color: #9a9e9f;"><strong
@@ -1020,7 +1047,9 @@
 
       </div>
     </section>
+ <!--  about store sec end here  -->
 
+    <!-- social network section starts from here  -->
     <section class=" social-network-sec ">
       <div class="container-fluid">
         <div
@@ -1029,11 +1058,11 @@
           <div
             class="col-lg-6 col-md-6 col-8 d-flex flex-column justify-content-center align-items-center"
             style="height:  fit-content;">
-            <h2 class="mb-4 ">Social Network</h2>
+            <h2 class="mb-4 text-center ">Social Network</h2>
             <p class="  text-center mb-4">Lorem ipsum dolor sit, amet
               consectetur adipisicing elit. Aperiam dolor numquam libero soluta
               corporis exercitationem rerum error quis, quam delectus repellat.</p>
-            <span style="word-spacing: 10px;" class="mb-4">
+            <span style=" word-spacing: 10px;" class=" text-center mb-4">
               <i class="fa fa-twitter" aria-hidden="true"></i>
               <i class="fa fa-facebook" aria-hidden="true"></i>
               <i class="fa fa-youtube-play" aria-hidden="true"></i>
@@ -1049,13 +1078,15 @@
       </div>
 
     </section>
+    <!-- social network section ends here  -->
 
+    <!-- footer starts from here  -->
     <footer>
       <div class="container-fluid">
 
         <div class=" row footer-sec"
           style="height: 200px; background-color: #3d626c;">
-          <div class="ul-list">
+          <div class="  ul-list d-flex justify-content-center">
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
@@ -1075,5 +1106,6 @@
         </div>
       </div>
     </footer>
+    <!-- footer ends here  -->
   </body>
 </html>
